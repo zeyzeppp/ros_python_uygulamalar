@@ -18,7 +18,7 @@ def yaricapHareket(istek):
     # w(acial hiz) = v(hiz) / r(yaricap)
 
 
-    hiz.linear.z = (hiz.linear.x) / r
+    hiz.angular.z = (hiz.linear.x) / r
 
 
     while(not rospy.is_shutdown()):

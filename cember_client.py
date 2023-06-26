@@ -13,7 +13,7 @@ def cemberClient():
 
     try:
 
-        r = float(input("yaricapi giriniz"))
+        r = float(input("yaricapi giriniz: "))
         cember_servis = rospy.ServiceProxy("yaricap_servis", Yaricap)
         cevap = cember_servis(r)
 

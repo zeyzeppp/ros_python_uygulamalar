@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 import rospy
-from geometry_msgs import Twist
+from geometry_msgs.msg import Twist
 from ros_python_uygulamalar.srv import Yaricap
 
 
